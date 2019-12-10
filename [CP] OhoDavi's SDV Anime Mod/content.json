@@ -1,0 +1,308 @@
+{
+	"Format": "1.3",
+
+	"ConfigSchema": {
+		"EnableMod": {
+            "AllowValues": "true, false",		
+			"Default": "true"
+        },
+        "Abigail": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+		"Emily": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+		"Haley": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+		"Leah": {
+            "AllowValues": "variant1, variant2, disabled",		
+			"Default": "enabled"
+        },
+		"Maru": {
+            "AllowValues": "defaultmod, glassesontop, disabled",		
+			"Default": "defaultmod"
+        },
+		"Penny": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+		"Jas": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+		"Robin": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+		"Sandy": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+		"Pam": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+		"Vincent": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+		"Wizard": {
+            "AllowValues": "enabled, disabled",		
+			"Default": "enabled"
+        },
+    },
+	
+	"Changes": [
+		//Abigail
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail",
+			"FromFile": "assets/Abigail.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 320 },
+			"When": {
+				"EnableMod": "true",
+				"Abigail": "enabled"
+			}
+		},
+		//Emily
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Emily",
+			"FromFile": "assets/Emily.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+			"When": {
+				"EnableMod": "true",
+				"Emily": "enabled"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Emily",
+			"FromFile": "assets/Emily.png",
+			"FromArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+			"When": {
+				"EnableMod": "true",
+				"Emily": "enabled"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Emily",
+			"FromFile": "assets/Emily.png",
+			"FromArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+			"When": {
+				"EnableMod": "true",
+				"Emily": "enabled"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Emily",
+			"FromFile": "assets/Emily.png",
+			"FromArea": { "X": 0, "Y": 192, "Width": 128, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 192, "Width": 128, "Height": 64 },
+			"When": {
+				"EnableMod": "true",
+				"Emily": "enabled"
+			}
+		},
+		//Haley
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Haley",
+			"FromFile": "assets/Haley.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 384 },
+			"When": {
+				"EnableMod": "true",
+				"Haley": "enabled"
+			}
+		},
+		//Jas
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Jas",
+			"FromFile": "assets/Jas.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 192 },
+			"When": {
+				"EnableMod": "true",
+				"Jas": "enabled"
+			}
+		},
+		//Leah
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Leah/{{leah}}.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 320 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 320 },
+			"When": {
+				"EnableMod": "true",
+				"Leah": "variant2"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Leah/{{leah}}.png",
+			"FromArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+			"When": {
+				"EnableMod": "true",
+				"Leah": "variant2"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "assets/Leah/{{leah}}.png",
+			"FromFile": "assets/Leah.png",
+			"FromArea": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+			"When": {
+				"EnableMod": "true",
+				"Leah": "variant2"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "assets/Leah/{{leah}}.png",
+			"FromFile": "assets/Leah.png",
+			"FromArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+			"When": {
+				"EnableMod": "true",
+				"Leah": "variant2"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "assets/Leah/{{leah}}.png",
+			"FromFile": "assets/Leah.png",
+			"FromArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 192, "Width": 64, "Height": 64 },
+			"When": {
+				"EnableMod": "true",
+				"Leah": "variant2"
+			}
+		},	
+		//Leah1
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "assets/Leah/{{leah}}.png",
+			"When": {
+				"EnableMod": "true",
+				"Leah": "variant1"
+			}
+		},
+		//Maru
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Maru",
+			"FromFile": "assets/Maru/{{Maru}}.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 320 },
+			"When": {
+				"EnableMod": "true",
+				"Maru": "defaultmod, glassesontop"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Hospital",
+			"FromFile": "assets/Maru/Maru_Hospital.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 128 },
+			"When": {
+				"EnableMod": "true",
+				"Maru": "defaultmod, glassesontop"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Hospital",
+			"FromFile": "assets/Maru/Maru_Hospital.png",
+			"ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+			"When": {
+				"EnableMod": "true",
+				"Maru": "defaultmod, glassesontop"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Maru_Hospital",
+			"FromFile": "assets/Maru/Maru_Hospital.png",
+			"FromArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 128, "Width": 64, "Height": 64 },
+			"When": {
+				"EnableMod": "true",
+				"Maru": "defaultmod, glassesontop"
+			}
+		},
+		//Penny
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Penny",
+			"FromFile": "assets/Penny.png",
+			"ToArea": { "X": 0, "Y": 0, "Width": 128, "Height": 384 },
+			"When": {
+				"EnableMod": "true",
+				"Penny": "enabled"
+			}
+		},
+		//Robin
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Robin",
+			"FromFile": "assets/Robin.png",
+			"When": {
+				"EnableMod": "true",
+				"Robin": "enabled"
+			}
+		},
+		//Sandy
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy",
+			"FromFile": "assets/Sandy.png",
+			"When": {
+				"EnableMod": "true",
+				"Sandy": "enabled"
+			}
+		},
+		//Pam
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pam",
+			"FromFile": "assets/Pam.png",
+			"When": {
+				"EnableMod": "true",
+				"Pam": "enabled"
+			}
+		},
+		//Vincent
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Vincent",
+			"FromFile": "assets/Vincent.png",
+			"When": {
+				"EnableMod": "true",
+				"vincent": "enabled"
+			}
+		},
+		//Wizard
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard",
+			"FromFile": "assets/Wizard.png",
+			"When": {
+				"EnableMod": "true",
+				"Wizard": "enabled"
+			}
+		},
+	]
+}

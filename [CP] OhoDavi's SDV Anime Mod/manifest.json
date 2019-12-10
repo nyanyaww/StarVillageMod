@@ -1,0 +1,13 @@
+{
+   "Name": "OhoDavi's StardewValley Anime Mods", // https://www.nexusmods.com/stardewvalley/mods/1839
+   "Author": "OhoDavi",
+   "Version": "0.3",
+   "Description": "Replaces the Vanilla Portraits with OhoDavi's Anime-like Portraits.",
+   "UniqueID": "OhoDavi.SDVAnimeP",
+   "MinimumApiVersion": "2.6-beta.15", // https://smapi.io/
+   "UpdateKeys": ["Nexus:1839"], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", // https://www.nexusmods.com/stardewvalley/mods/1915
+      "MinimumVersion": "1.4-beta.3"
+   }
+}
