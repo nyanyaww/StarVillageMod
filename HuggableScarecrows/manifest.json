@@ -1,0 +1,9 @@
+{
+  "Name": "HuggableScarecrow",
+  "Author": "Bogie5464",
+  "Version": "0.0.1",
+  "Description": "Debug Info",
+  "UniqueID": "HuggableScarecrow.Bogie5464",
+  "EntryDll": "HuggableScarecrow.dll",
+  "MinimumApiVersion": "2.9"
+}
