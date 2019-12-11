@@ -20,7 +20,7 @@
         },
 		"Leah": {
             "AllowValues": "variant1, variant2, disabled",		
-			"Default": "enabled"
+			"Default": "variant1"
         },
 		"Maru": {
             "AllowValues": "defaultmod, glassesontop, disabled",		
