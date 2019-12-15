@@ -1,6 +1,18 @@
 # StarVillageMod
 
+
+
 星露谷物语mod合集
+
+## 快速开始
+
+使用这个仓库的`.安装mod管理器\SMAPI 3.0.1 installer`
+
+修改steam中星露谷物语的启动项为`"*:\*\Steam\steamapps\common\Stardew Valley\StardewModdingAPI.exe" %command%`
+
+就可以愉快地玩耍惹。
+
+## mod列表
 
 |             名字              |     功能      |
 | :--------------------------: | :----------: |
