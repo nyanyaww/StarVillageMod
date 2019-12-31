@@ -7,7 +7,15 @@
   },
   "ConnectorNames": [
     "Wood Path",
-    "Crystal Path"
+    "Crystal Path",
+    "Wood Floor",
+    "Straw Floor",
+    "Weathered Floor",
+    "Crystal Floor",
+    "Stone Floor",
+    "Gravel Path",
+    "Cobblestone Path",
+    "Stepping Stone Path"
   ],
   "ModCompatibility": {
     "AutoGrabberMod": true,
