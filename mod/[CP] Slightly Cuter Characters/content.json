@@ -1,0 +1,562 @@
+{
+  "Format": "1.9",
+
+  "ConfigSchema": {
+  "NoNose": {"AllowValues": "True, False", "Default": "True"},
+  "MaruGlasses": {"AllowValues": "True, False", "Default": "True"},
+  "HairDifferent": {"AllowValues": "True, False", "Default": "True"},
+  "QiSprinkles": {"AllowValues": "True, False", "Default": "True"},
+  "FarmerBase": {"AllowValues": "True, False", "Default": "True"},
+  "ChangeSkirt": {"AllowValues": "True, False", "Default": "False"},
+  "UseSVE": {"AllowValues": "True, False", "Default": "False"}
+   },
+
+"Changes": [
+// Characters
+
+      {  "Action": "Load",
+         "Target": "Characters/Abigail",
+         "FromFile": "assets/characters/Abigail_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Alex",
+         "FromFile": "assets/characters/Alex_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Caroline",
+         "FromFile": "assets/characters/Caroline_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Clint",
+         "FromFile": "assets/characters/Clint_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Demetrius",
+         "FromFile": "assets/characters/Demetrius_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Elliott",
+         "FromFile": "assets/characters/Elliott_{{NoNose}}_{{HairDifferent}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Evelyn",
+         "FromFile": "assets/characters/Evelyn_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Haley",
+         "FromFile": "assets/characters/Haley_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Emily",
+         "FromFile": "assets/characters/Emily_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Harvey",
+         "FromFile": "assets/characters/Harvey_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Jas",
+         "FromFile": "assets/characters/Jas_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Jodi",
+         "FromFile": "assets/characters/Jodi_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Kent",
+         "FromFile": "assets/characters/Kent_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Leah",
+         "FromFile": "assets/characters/Leah_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Lewis",
+         "FromFile": "assets/characters/Lewis_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Marcello",
+         "FromFile": "assets/characters/Marcello_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Maru",
+         "FromFile": "assets/characters/Maru_{{NoNose}}_{{MaruGlasses}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Maru_Hospital",
+         "FromFile": "assets/characters/MaruHospital_{{NoNose}}_{{MaruGlasses}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Morris",
+         "FromFile": "assets/characters/Morris_{{NoNose}}.png",
+		 "When": {"UseSVE": "False" }},
+
+      {  "Action": "Load",
+         "Target": "Characters/Pam",
+         "FromFile": "assets/characters/Pam_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Penny",
+         "FromFile": "assets/characters/Penny_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Pierre",
+         "FromFile": "assets/characters/Pierre_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Robin",
+         "FromFile": "assets/characters/Robin_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Sam",
+         "FromFile": "assets/characters/Sam_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Sandy",
+         "FromFile": "assets/characters/Sandy_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Sebastian",
+         "FromFile": "assets/characters/Sebastian_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Shane",
+         "FromFile": "assets/characters/Shane_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Shane_JojaMart",
+         "FromFile": "assets/characters/ShaneJoja_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Vincent",
+         "FromFile": "assets/characters/Vincent_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Willy",
+         "FromFile": "assets/characters/Willy_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Wizard",
+         "FromFile": "assets/characters/Wizard_{{NoNose}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/MrQi",
+         "FromFile": "assets/characters/MrQi_{{QiSprinkles}}.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Bouncer",
+         "FromFile": "assets/characters/Bouncer.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/ClothesTherapyCharacters",
+         "FromFile": "assets/characters/ClothesTherapyCharacters.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Governor",
+         "FromFile": "assets/characters/Governor.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Gunther",
+         "FromFile": "assets/characters/Gunther.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/LeahExFemale",
+         "FromFile": "assets/characters/LeahExFemale.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/LeahExMale",
+         "FromFile": "assets/characters/LeahExMale.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Mariner",
+         "FromFile": "assets/characters/Mariner.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Marlon",
+         "FromFile": "assets/characters/Marlon.png",
+		 "When": {"UseSVE": "False" }},
+
+      {  "Action": "Load",
+         "Target": "Characters/George",
+         "FromFile": "assets/characters/George.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Gus",
+         "FromFile": "assets/characters/Gus.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Krobus",
+         "FromFile": "assets/characters/Krobus.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Linus",
+         "FromFile": "assets/characters/Linus.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Marnie",
+         "FromFile": "assets/characters/Marnie.png"},
+
+      {  "Action": "Load",
+         "Target": "Characters/Henchman",
+         "FromFile": "assets/characters/Henchman.png"},
+
+// Farmer
+
+      {  "Action": "Load",
+         "Target": "characters/farmer/farmer_base",
+         "FromFile": "assets/farmer/FarmerMale_{{NoNose}}.png",
+		 "When": {"FarmerBase": "True" }},
+		 
+      {  "Action": "Load",
+         "Target": "characters/farmer/farmer_girl_base",
+         "FromFile": "assets/farmer/FarmerFemale_{{NoNose}}.png",
+		 "When": {"FarmerBase": "True" }},		 
+
+      {  "Action": "Load",
+         "Target": "characters/farmer/farmer_base_bald",
+         "FromFile": "assets/farmer/FarmerMaleBald_{{NoNose}}.png",
+		 "When": {"FarmerBase": "True" }},		
+
+      {  "Action": "Load",
+         "Target": "characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/farmer/FarmerFemaleBald_{{NoNose}}.png",
+		 "When": {"FarmerBase": "True" }},		
+
+       { "Action": "EditImage",
+         "Target": "Characters/Farmer/Pants",
+         "FromFile": "assets/Farmer/Skirt.png",
+         "ToArea": { "X": 672, "Y": 18, "Width": 96, "Height": 654 },
+         "When": {"ChangeSkirt": "True" }},
+
+// Cursors
+
+      {  "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Random/Cursors_{{NoNose}}.png",
+         "FromArea": { "X": 0, "Y": 1387, "Width": 114, "Height": 34 },
+         "ToArea": { "X": 0, "Y": 1387, "Width": 114, "Height": 34 }},
+
+      {  "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Random/Cursors_{{NoNose}}.png",
+         "FromArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
+         "ToArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 }},
+
+      {  "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Random/Cursors_{{NoNose}}.png",
+         "FromArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 32 },
+         "ToArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 32 }},
+
+      {  "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Random/Cursors_{{NoNose}}.png",
+         "FromArea": { "X": 558, "Y": 1425, "Width": 60, "Height": 26 },
+         "ToArea": { "X": 558, "Y": 1425, "Width": 60, "Height": 26 }},
+
+      {  "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Random/Cursors_{{NoNose}}.png",
+         "FromArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27 },
+         "ToArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27  }},
+
+      {  "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Random/Cursors_{{NoNose}}.png",
+         "FromArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+         "ToArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 }},
+
+      {  "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Random/Cursors_{{NoNose}}.png",
+         "FromArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 },
+         "ToArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 }},
+
+      {  "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Random/Cursors_{{NoNose}}.png",
+         "FromArea": { "X": 387, "Y": 1311, "Width": 11, "Height": 15 },
+         "ToArea": { "X": 387, "Y": 1311, "Width": 11, "Height": 15 }},
+
+// Cow Photo
+
+      {  "Action": "Load",
+         "Target": "LooseSprites/cowPhotos",
+         "FromFile": "assets/random/cowPhotos_{{NoNose}}.png"},
+
+
+      {  "Action": "Load",
+         "Target": "LooseSprites/cowPhotosWinter",
+         "FromFile": "assets/random/cowPhotosWinter_{{NoNose}}.png"},
+
+// Desert
+
+      {  "Action": "EditImage",
+         "Target": "Maps/DesertTiles",
+         "FromFile": "assets/Random/DesertTiles_{{NoNose}}.png",
+         "FromArea": { "X": 96, "Y": 192, "Width": 30, "Height": 32 },
+         "ToArea": { "X": 96, "Y": 192, "Width": 30, "Height": 32 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/DesertTiles",
+         "FromFile": "assets/Random/DesertTiles_{{NoNose}}.png",
+         "FromArea": { "X": 226, "Y": 291, "Width": 29, "Height": 25 },
+         "ToArea": { "X": 226, "Y": 291, "Width": 29, "Height": 25 }},
+
+// Festivals
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "assets/Random/Festivals_{{NoNose}}.png",
+         "FromArea": { "X": 336, "Y": 208, "Width": 96, "Height": 47 },
+         "ToArea": { "X": 336, "Y": 208, "Width": 96, "Height": 47 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "assets/Random/Festivals_{{NoNose}}.png",
+         "FromArea": { "X": 480, "Y": 208, "Width": 32, "Height": 35 },
+         "ToArea": { "X": 480, "Y": 208, "Width": 32, "Height": 35 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "assets/Random/Festivals_{{NoNose}}.png",
+         "FromArea": { "X": 448, "Y": 117, "Width": 16, "Height": 59 },
+         "ToArea": { "X": 448, "Y": 117, "Width": 16, "Height": 59 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "assets/Random/Festivals_{{NoNose}}.png",
+         "FromArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+         "ToArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "assets/Random/Festivals_{{NoNose}}.png",
+         "FromArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+         "ToArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "assets/Random/Festivals_{{NoNose}}.png",
+         "FromArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+         "ToArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "assets/Random/Festivals_{{NoNose}}.png",
+         "FromArea": { "X": 274, "Y": 129, "Width": 13, "Height": 15 },
+         "ToArea": { "X": 274, "Y": 129, "Width": 13, "Height": 15  }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "assets/Random/Festivals_{{NoNose}}.png",
+         "FromArea": { "X": 496, "Y": 0, "Width": 16, "Height": 50 },
+         "ToArea": { "X": 496, "Y": 0, "Width": 16, "Height": 50 }},
+
+//Intro
+
+      {  "Action": "EditImage",
+         "Target": "Minigames/jojacorps",
+         "FromFile": "assets/Random/jojacorps_{{NoNose}}.png",
+         "FromArea": { "X": 109, "Y": 680, "Width": 1010, "Height": 89 },
+         "ToArea": { "X": 109, "Y": 680, "Width": 1010, "Height": 89 }},
+
+      {  "Action": "EditImage",
+         "Target": "Minigames/jojacorps",
+         "FromFile": "assets/Random/jojacorps_{{NoNose}}.png",
+         "FromArea": { "X": 342, "Y": 592, "Width": 78, "Height": 6 },
+         "ToArea": { "X": 342, "Y": 592, "Width": 78, "Height": 6 }},
+
+// Junimo Note
+
+      {  "Action": "EditImage",
+         "Target": "LooseSprites/JunimoNote",
+         "FromFile": "assets/Random/JunimoNote.png",
+         "FromArea": { "X": 352, "Y": 212, "Width": 160, "Height": 32 },
+         "ToArea": { "X": 352, "Y": 212, "Width": 160, "Height": 32 }},
+
+// Night Market
+
+      {  "Action": "EditImage",
+         "Target": "Maps/night_market_tilesheet_objects",
+         "FromFile": "assets/Random/nightmarket_{{NoNose}}.png",
+         "FromArea": { "X": 0, "Y": 272, "Width": 96, "Height": 32 },
+         "ToArea": { "X": 0, "Y": 272, "Width": 96, "Height": 32 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/night_market_tilesheet_objects",
+         "FromFile": "assets/Random/nightmarket_{{NoNose}}.png",
+         "FromArea": { "X": 176, "Y": 288, "Width": 80, "Height": 16 },
+         "ToArea": { "X": 176, "Y": 288, "Width": 80, "Height": 16 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/night_market_tilesheet_objects",
+         "FromFile": "assets/Random/nightmarket_{{NoNose}}.png",
+         "FromArea": { "X": 224, "Y": 176, "Width": 16, "Height": 32 },
+         "ToArea": { "X": 224, "Y": 176, "Width": 16, "Height": 32 }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/night_market_tilesheet_objects",
+         "FromFile": "assets/Random/nightmarket_{{NoNose}}.png",
+         "FromArea": { "X": 959, "Y": 58, "Width": 8, "Height": 8 },
+         "ToArea": { "X": 959, "Y": 58, "Width": 8, "Height": 8  }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/night_market_tilesheet_objects",
+         "FromFile": "assets/Random/nightmarket_{{NoNose}}.png",
+         "FromArea": { "X": 1056, "Y": 240, "Width": 32, "Height": 32 },
+         "ToArea": { "X": 1056, "Y": 240, "Width": 32, "Height": 32 }},
+
+//Sam Concert
+
+      {  "Action": "EditImage",
+         "Target": "Maps/samshowtiles",
+         "FromFile": "assets/Random/samshowtiles_{{NoNose}}.png",
+         "FromArea": { "X": 0, "Y": 192, "Width": 160, "Height": 32 },
+         "ToArea": { "X": 0, "Y": 192, "Width": 160, "Height": 32  }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/samshowtiles",
+         "FromFile": "assets/Random/samshowtiles_{{NoNose}}.png",
+         "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 96 },
+         "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 96  }},
+
+//Stadium
+
+      {  "Action": "EditImage",
+         "Target": "Maps/stadium_tiles",
+         "FromFile": "assets/Random/stadium.png",
+         "FromArea": { "X": 0, "Y": 208, "Width": 64, "Height": 96 },
+         "ToArea": { "X": 0, "Y": 208, "Width": 64, "Height": 96  }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/stadium_tiles",
+         "FromFile": "assets/Random/stadium.png",
+         "FromArea": { "X": 16, "Y": 176, "Width": 48, "Height": 32 },
+         "ToArea": { "X": 16, "Y": 176, "Width": 48, "Height": 32 }},
+
+//Submarine
+
+      {  "Action": "EditImage",
+         "Target": "Maps/submarine_tilesheet",
+         "FromFile": "assets/Random/submarine.png",
+         "FromArea": { "X": 14, "Y": 125, "Width": 18, "Height": 36 },
+         "ToArea": { "X": 14, "Y": 125, "Width": 18, "Height": 36  }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/submarine_tilesheet",
+         "FromFile": "assets/Random/submarine.png",
+         "FromArea": { "X": 192, "Y": 288, "Width": 64, "Height": 16 },
+         "ToArea": { "X": 192, "Y": 288, "Width": 64, "Height": 16 }},
+
+//Townint
+
+      {  "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/Random/townInterior_{{NoNose}}.png",
+         "FromArea": { "X": 181, "Y": 624, "Width": 26, "Height": 64 },
+         "ToArea": { "X": 181, "Y": 624, "Width": 26, "Height": 64  }},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/Random/townInterior_{{NoNose}}.png",
+         "FromArea": { "X": 214, "Y": 657, "Width": 24, "Height": 31 },
+         "ToArea": { "X": 214, "Y": 657, "Width": 24, "Height": 31 }},
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/Random/townInterior_{{NoNose}}.png",
+         "FromArea": { "X": 368, "Y": 1008, "Width": 48, "Height": 32 },
+         "ToArea": { "X": 368, "Y": 1008, "Width": 48, "Height": 32 }},
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/Random/townInterior_{{NoNose}}.png",
+         "FromArea": { "X": 352, "Y": 944, "Width": 32, "Height": 26 },
+         "ToArea": { "X": 352, "Y": 944, "Width": 32, "Height": 26 }},
+
+//Movie Theater
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/MovieTheater_TileSheet",
+         "FromFile": "assets/Random/MovieTheater_{{NoNose}}.png",
+         "FromArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+         "ToArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64}},
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/MovieTheater_TileSheet",
+         "FromFile": "assets/Random/MovieTheater_{{NoNose}}.png",
+         "FromArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 },
+         "ToArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16}},
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/MovieTheater_TileSheet",
+         "FromFile": "assets/Random/MovieTheater_{{NoNose}}.png",
+         "FromArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 },
+         "ToArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32}},
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/MovieTheater_TileSheet",
+         "FromFile": "assets/Random/MovieTheater_{{NoNose}}.png",
+         "FromArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+         "ToArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32}},
+
+//Movie Theater	Joja
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/MovieTheaterJoja_TileSheet",
+         "FromFile": "assets/Random/MovieTheaterJoja_{{NoNose}}.png",
+         "FromArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64 },
+         "ToArea": { "X": 112, "Y": 192, "Width": 112, "Height": 64}},
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/MovieTheaterJoja_TileSheet",
+         "FromFile": "assets/Random/MovieTheaterJoja_{{NoNose}}.png",
+         "FromArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 },
+         "ToArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16}},
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/MovieTheaterJoja_TileSheet",
+         "FromFile": "assets/Random/MovieTheaterJoja_{{NoNose}}.png",
+         "FromArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 },
+         "ToArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32}},
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/MovieTheaterJoja_TileSheet",
+         "FromFile": "assets/Random/MovieTheaterJoja_{{NoNose}}.png",
+         "FromArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32 },
+         "ToArea": { "X": 0, "Y": 192, "Width": 32, "Height": 32}},
+
+		       {  "Action": "EditImage",
+         "Target": "Maps/MovieTheaterJoja_TileSheet",
+         "FromFile": "assets/Random/MovieTheaterJoja_{{NoNose}}.png",
+         "FromArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+         "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 }},
+
+//Temporary Sprites
+
+		       {  "Action": "EditImage",
+         "Target": "LooseSprites/temporary_sprites_1",
+         "FromFile": "assets/Random/turbanguy_{{NoNose}}.png",
+         "PatchMode": "Overlay",
+         "ToArea": { "X": 0, "Y": 614, "Width": 180, "Height": 26}},
+
+		       {  "Action": "EditImage",
+         "Target": "LooseSprites/temporary_sprites_1",
+         "FromFile": "assets/Random/mermaid_{{NoNose}}.png",
+         "PatchMode": "Overlay",
+         "ToArea": { "X": 193, "Y": 0, "Width": 15, "Height": 32}},
+
+		       {  "Action": "EditImage",
+         "Target": "LooseSprites/temporary_sprites_1",
+         "FromFile": "assets/Random/turbanguy2_{{NoNose}}.png",
+         "PatchMode": "Overlay",
+         "ToArea": { "X": 354, "Y": 168, "Width": 64, "Height": 32}},
+
+		       {  "Action": "EditImage",
+         "Target": "LooseSprites/temporary_sprites_1",
+         "FromFile": "assets/Random/paintings_{{NoNose}}.png",
+         "PatchMode": "Overlay",
+         "ToArea": { "X": 400, "Y": 394, "Width": 101, "Height": 23}},
+ ]
+}

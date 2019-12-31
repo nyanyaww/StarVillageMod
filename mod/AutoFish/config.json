@@ -1,6 +1,6 @@
 {
-  "maxCastPower": true,
+  "maxCastPower": false,
   "autoHit": true,
   "fastBite": false,
-  "catchTreasure": true
+  "catchTreasure": false
 }
